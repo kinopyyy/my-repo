@@ -8,7 +8,7 @@ on:
         required: true                     # 入力パラメータの必須フラグ
         description: A cheerful word       # 入力パラメータの概要
       log-level:
-        type:choice 
+        type: choice 
         options:
           - info
           - warn
