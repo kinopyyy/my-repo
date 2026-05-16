@@ -6,3 +6,4 @@ jobs:
    steps:
      - run: echo "${{ github.actor }}" # githubコンテキストの参照
      - run: echo "${{ github.run_id }}" # githubコンテキストの参照
+     - run: echo "${{ runner.name }}" # githubコンテキストの参照
