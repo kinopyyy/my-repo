@@ -4,6 +4,6 @@ jobs:
   print:
     runs-on: ubunts-latest
     env:
-      USERNAME: ${{ vars.USENAME}}
+      USERNAME: ${{ vars.USENAME }}
     steps:
       - run: echo "${USERNAME}"
