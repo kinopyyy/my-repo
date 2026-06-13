@@ -1,5 +1,5 @@
 name: Concurrency
-run-name: Workflow A
+run-name: Workflow B
 on: push
 concurrency: ${{ github.workflow }}
 jobs:
